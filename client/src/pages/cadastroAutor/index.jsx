@@ -55,22 +55,7 @@ const Autor = () => {
         <Titulo>CADASTRAR AUTORES</Titulo>
         <Container>
           <form className="autores">
-            <label>*Código do Autor</label>
-            <input
-              type="text"
-              name="id_autor"
-              placeholder="Digite o numero do código do Autor"
-              className="registro"
-              onChange={handleChangeValues}
-            />
-            <label>*Código do Livro</label>
-            <input
-              type="text"
-              name="id_livro"
-              placeholder="Escolha o código do livro"
-              className="registro"
-              onChange={handleChangeValues}
-            />
+
             <label>*Nome do Autor</label>
             <input
               type="text"
